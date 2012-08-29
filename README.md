@@ -35,3 +35,8 @@ Visit your site's admin, if you are prompted to login use your usual username an
 Add an `Authy Admin User` for a staff member that wants two-factor authentication.
 
 Next time the user visits the admin he or she will be required to login with a one time password provided by authy.com.
+
+Custom Admin
+============
+
+If you aren't using the default django admin instance (django.contrib.admin.site) then you'll need to subclass authy_admin.sites.AuthyAdminSite.
